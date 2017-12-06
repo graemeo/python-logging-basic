@@ -1,7 +1,8 @@
 import logging
 
 class BasicLogger:
-   def __init__(self):
+
+   def log_me_up(self):
       logger = logging.getLogger(__name__)
 
       print "##############################################"
